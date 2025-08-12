@@ -1,0 +1,18 @@
+[{
+ "name": "Nb_H33Y",
+ "modelSeeds": [
+  "763351010"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGNTFSTAYMSWVRQAPGKGLEWVSGILSNGAGASYADFVKGRFTISRDSAKNTLYLQMDSLKPEDTAVYYCALGFRTLTGLRGQGTQVTVSS",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

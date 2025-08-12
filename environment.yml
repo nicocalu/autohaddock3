@@ -1,0 +1,10 @@
+name: haddock3
+channels:
+  - pytorch
+  - pyg
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip:
+    - haddock3

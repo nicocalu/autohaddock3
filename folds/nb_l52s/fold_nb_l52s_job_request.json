@@ -1,0 +1,18 @@
+[{
+ "name": "Nb_L52S",
+ "modelSeeds": [
+  "1992459382"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGNTFSTAHMSWVRQAPGKGLEWVSGISSNGAGASYADFVKGRFTISRDSAKNTLYLQMDSLKPEDTAVYYCALGFRTLTGLRGQGTQVTVSS",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]
