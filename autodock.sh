@@ -83,7 +83,7 @@ for folder in ./folds/*/; do
     echo "Creating configuration file: $config_file"
     
     # Replace [name] placeholders: first one with the name for run_dir, second one with the cif file path
-    sed -e "s|run_dir = \"\[name\]\"|run_dir = \"$name\"|" \
+    sed -e "s|run_dir = \"\[name\]\"|run_dir = \"runs/$name\"|" \
         -e "s|\"\[name\]\",|\"$pdb_file\",|" \
         init.cfg > "$config_file"
     

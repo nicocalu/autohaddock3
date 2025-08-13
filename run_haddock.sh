@@ -18,3 +18,5 @@ for cfg in ./configs/*-init.cfg; do
 done
 
 echo "All HADDOCK runs completed."
+date
+tar -czvf results.tar.gz runs/*/12_prodigyprotein runs/*/analysis runs/*/11_caprieval runs/*/10_seletopclusts

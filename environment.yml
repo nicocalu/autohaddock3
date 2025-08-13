@@ -6,5 +6,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python
+  - pip
   - pip:
     - haddock3
