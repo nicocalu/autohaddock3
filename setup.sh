@@ -5,3 +5,6 @@ mamba env create -f environment.yml
 mamba activate haddock3
 chmod +x autodock.sh
 ./autodock.sh
+echo "***********************************************"
+echo "**** DONT FORGET TO UPLOAD THE PDB DATA!!! ****"
+echo "***********************************************"
